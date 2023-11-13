@@ -34,7 +34,7 @@ const productSchema = new Schema({
   },
 
   Suppliers: {
-    type: Stringg,
+    type: String,
     required: true    
   },
 
