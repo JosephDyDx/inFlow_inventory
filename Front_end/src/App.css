@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.App{ 
+    text-align: center;
+    display: flex;
+    background-color: linear-gradient( 79deg, #fcfced, #fcedfc 48%, #ebf6ff);
+}
+.remember {
+    background-color: #ff0000;
+    color: #fff;
+    width: 30%;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #ff0000;
+    text-align: center;
+    text-decoration: none;
+}
+.auth-form-container,.Custom-Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    margin: o.5rem 0;
+    width: 552px;
+    height: 74.77px;
+    border-radius: 15px;
+    border: 1px;
+    padding: 1rem;
+}
+button{
+    background-color: #ff0000;
+    color: #fff;
+    width: 30%;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #ff0000;
+    text-align: center;
+    text-decoration: none;
+}
+.link-btn {
+    background: none;
+    color: #fff;
+    text-decoration: underline;
+}
