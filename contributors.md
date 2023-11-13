@@ -12,4 +12,5 @@ How to contribute:
 //Add your names below by following the above steps
 project contributors:
 1. oginni joseph olumuyiwa
-2. olaoye love grace
+2. olaoye love grace 
+3. ayegbusi oluwaseunfunmi precious
