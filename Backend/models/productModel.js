@@ -2,18 +2,63 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const productSchema = new Schema({
-  title: {
+  
+  Name: {
     type: String,
     required: true
   },
-  units: {
+  
+  Category: {
+    type: String,
+    required: true
+  },
+  
+  Quantity: {
     type: Number,
     required: true
   },
-  category: {
+
+  SerialNumber: {
     type: String,
     required: true
-  }
-}, { timestamps: true })
+  },
+
+  Version: {
+    type: Number,
+    required: true
+  },
+
+  ShelfLife: {
+    type: String,
+    required: true
+  },
+
+  Suppliers: {
+    type: Stringg,
+    required: true    
+  },
+
+  TimeStamp: {
+    timestamps: true 
+  },
+
+
+  // undecided 
+  // Picture: {
+
+  // }
+
+  ArrivalDate: {
+  type: Date,
+  required: true
+},
+
+Description: {
+  type: String,
+  required: true
+}
+
+
+})
 
 module.exports = mongoose.model('Product', productSchema)
