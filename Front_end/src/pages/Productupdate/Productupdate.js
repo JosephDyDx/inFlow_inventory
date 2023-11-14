@@ -14,7 +14,7 @@ const Product = () => {
     
     <div className="product-form">
       <div className="arrows">
-        <NavLink to="/forgotpassword">
+        <NavLink to="/product">
           <HiArrowSmallLeft style={arrowStyle} />
         </NavLink>
         <p className="arrows-para">Product update</p>
