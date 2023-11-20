@@ -38,11 +38,6 @@ const productSchema = new Schema({
     required: true    
   },
 
-  TimeStamp: {
-    timestamps: true 
-  },
-
-
   // undecided 
   // Picture: {
 
@@ -51,14 +46,13 @@ const productSchema = new Schema({
   ArrivalDate: {
   type: Date,
   required: true
-},
+  },
 
-Description: {
+  Description: {
   type: String,
   required: true
-}
+  }
+}, { timestamps: true })
 
-
-})
 
 module.exports = mongoose.model('Product', productSchema)
