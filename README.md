@@ -1,14 +1,12 @@
-INFLOW INVENTORY ![efsw](https://logo.link)
+INFLOW INVENTORY ![inflow](https://logo.link)
 ============================
-
-[![build status](https://img.shields.io/github/actions/workflow/status/SpartanJ/efsw/main.yml?branch=master)](https://github.com/SpartanJ/efsw/actions?query=workflow%3Abuild)
 
 **inflow inventory** : An inventory management system. Written using the MERN Stack
 ###Industrial project
 
-* React Js [inotify](http://en.wikipedia.org/wiki/reactjs)
+* React Js [react js](http://en.wikipedia.org/wiki/reactjs)
 
-* Node Js [I/O Completion Ports](http://en.wikipedia.org/wiki/nodejs)
+* Node Js [Node js](http://en.wikipedia.org/wiki/nodejs)
 
 **Code License**
 --------------
@@ -21,6 +19,7 @@ INFLOW INVENTORY ![efsw](https://logo.link)
 * express js
 * dotenv
 * bcrypt
+* jwt
 
 **Compiling**
 ------------
