@@ -2,43 +2,82 @@ INFLOW INVENTORY ![inflow](https://logo.link)
 ============================
 
 **inflow inventory** : An inventory management system. Written using the MERN Stack
-###Industrial project
-
-* React Js [react js](http://en.wikipedia.org/wiki/reactjs)
 
 * Node Js [Node js](http://en.wikipedia.org/wiki/nodejs)
+* React Js [react js](http://en.wikipedia.org/wiki/reactjs)
+* Express Js [express js](http://en.wikipedia.org/wiki/expressjs)
+* MongoDB[MongoDB](http://en.wikipedia.org/wiki/MongoDB)
 
 **Code License**
 --------------
 [MIT License](http://www.opensource.org/licenses/mit-license.php)
 
-
-**Dependencies**
---------------
-* React Js
-* express js
-* dotenv
-* bcrypt
-* jwt
-
 **Compiling**
 ------------
-To generate project files you will need to [download and install](https://) [Node js](https://)
+To generate project files you will need to [download and install](https://) [Node js](https://) 
 
-Then you can generate the project for your platform by just going to the project directory where the the frontend and backend folders are located and executing:
+If you have [git](https://) installed, go to a command line application and run
+```cmd
+git clone https://github.com/JosephDyDx/inFlow_inventory.git
+```
+next ``cd`` into the project directory
+```cmd
+cd inFlow_inventory
+```
+Then install dependencies for the frontend and backend
 
-`cd backend` on a command line tool, then install the dependencies using npm. 
+* Backend
+
+from the `inFlow_inventory` directory, run 
+```cmd
+cd backend
+``` 
+then install the dependencies using npm.
 
 ```cmd
 npm install
 ```
-afterwards, run `node index` to run the backend node js server
+**Backend Dependencies**
+--------------
+* bcrypt
+* dotenv
+* express
+* jsonwebtoken
+* mongoose
 
-To start the frontend react server run `cd ../front_end` then install the dependencies using npm
+after dependencies install, run 
+```cmd
+node server
+``` 
+to run the backend node js server
+
+* Frontend
+
+from the `inFlow_inventory` directory, run 
+```cmd
+cd frontend
+``` 
+then install the dependencies using npm.
+
 ```cmd
 npm install
 ```
-afterwards, run `npm run start` to run the frontend react dev server
+**Frontend Dependencies**
+--------------
+* ---
+* tbd
+* tbd
+* tbd
+* tbd
+* tbd
+* tbd
+
+after dependencies install, run 
+```cmd
+npm start
+``` 
+to run the frontend react server
+
 
 **Useful information**
 --------------------
