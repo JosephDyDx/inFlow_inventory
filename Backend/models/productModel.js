@@ -1,8 +1,22 @@
 const mongoose = require('mongoose')
+
+/*
+
+Name
+Category
+Quantity
+SerialNumber
+Version
+ShelfLife
+Suppliers
+ArrivalDate
+Description
+
+*/
+
 const Schema = mongoose.Schema
 
 const productSchema = new Schema({
-  
   Name: {
     type: String,
     required: true
@@ -44,15 +58,19 @@ const productSchema = new Schema({
   // }
 
   ArrivalDate: {
-  type: Date,
+  type: String,
   required: true
   },
 
   Description: {
   type: String,
   required: true
+  },
+
+  user_id: {
+    type: String,
+    required: true
   }
 }, { timestamps: true })
-
 
 module.exports = mongoose.model('Product', productSchema)
