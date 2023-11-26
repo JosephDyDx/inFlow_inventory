@@ -1,0 +1,45 @@
+
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position:relative;
+    text-align: left;
+}
+
+.bg {
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+    z-index: -1;
+    object-fit: cover;
+    height: 80vh ;
+
+}
+
+.introContent {
+    float: left;
+    align-items: justify;
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #01018F;
+    position: absolute;
+}
+
+.introName {
+    color: #3f0c81;
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 300;
+}
+
