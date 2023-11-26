@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 import Group from "../../assets/Group.png";
 
 const Forgotpassword = () => {
-  const arrowStyle = { width: 40, height: 35, color: "#000" };
+  const arrowStyle = { width: 30, height: 25, color: "#000" };
 
   const [email, setEmail] = useState();
 
@@ -20,7 +20,7 @@ const Forgotpassword = () => {
       </NavLink>
       <img src={Group} alt="worker" className="image"/>
       <p className="para">
-        Don’t worry it happens, please provide the email associated with your
+        Don’t worry it happens, please provide the email <br/> associated with your
         account
       </p>
       <div className="container">
