@@ -1,30 +1,34 @@
-// IMPORT MODULES
 const express = require('express')
-const router  = express.Router()
+const {
+  createProduct,
+  getProducts,
+  getProduct,
+  deleteProduct,
+  updateProduct
+} = require('../controllers/productController')
 
-// GLOBAL VARIABLES
-const {getAllProductRecords,
-    getOneProductRecord,
-    createProductRecord,
-   deleteProductRecord, 
-    updateProductRecord } = require('../controllers/routeController')
+//import requireAuth middleware
+const requireAuth = require('../middleware/requireAuth')
 
-// ROUTES
+const router = express.Router()
 
-// GET all product records
-router.get('/', getAllProductRecords)
+// require auth for all Product routes
+router.use(requireAuth)
 
-// GET a single product record
-router.get('/:id', getOneProductRecord)
+// GET all Products
+router.get('/', getProducts)
 
-// POST a new product record
-router.post('/', createProductRecord)
+//GET a single Product
+router.get('/:id', getProduct)
 
-// DELETE a product record
-router.delete('/:id', deleteProductRecord)
+// POST a new Product
+router.post('/', createProduct)
 
-// UPDATE a product record
-router.patch('/:id', updateProductRecord)
+// DELETE a Product
+router.delete('/:id', deleteProduct)
+
+// UPDATE a Product
+router.patch('/:id', updateProduct)
+
 
 module.exports = router
-

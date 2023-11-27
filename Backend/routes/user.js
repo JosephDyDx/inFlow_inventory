@@ -12,3 +12,6 @@ router.post('/login', loginUser)
 router.post('/signup', signupUser)
 
 module.exports = router
+
+/*controllers are just handlers(functions) for methods and paths
+ that are stored in a different file*/

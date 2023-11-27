@@ -2,9 +2,9 @@ const mongoose = require('mongoose')
 const bcrypt = require('bcrypt')
 const validator = require('validator')
 
-const schema = mongoose.Schema
+const Schema = mongoose.Schema
 
-const userSchema = new schema({
+const userSchema = new Schema({
   email: {
     type: String,
     required: true,
@@ -19,6 +19,8 @@ const userSchema = new schema({
 // static signup method
 userSchema.statics.signup = async function(email, password) {
 
+  //cant use arrow function cos of the 'this' keyword
+
   // validation
   if (!email || !password) {
     throw Error('All fields must be filled')
@@ -26,14 +28,14 @@ userSchema.statics.signup = async function(email, password) {
   if (!validator.isEmail(email)) {
     throw Error('Email not valid')
   }
-  if (!validator.isStrongPassword(password)) {
+  /*if (!validator.isStrongPassword(password)) {
     throw Error('Password not strong enough')
-  }
+  }*/
 
   const exists = await this.findOne({ email })
 
   if (exists) {
-    throw Error('Email already in use')
+    throw Error('Email already in use by a user')
   }
 
   const salt = await bcrypt.genSalt(10)
