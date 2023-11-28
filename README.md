@@ -76,7 +76,8 @@ after dependencies install, run
 ```cmd
 npm start
 ``` 
-to run the frontend react server
+To run the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 **Useful information**
