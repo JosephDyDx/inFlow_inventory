@@ -12,6 +12,7 @@ import Productupdate from "./pages/Productupdate/Productupdate";
 import ProfileUpdate from "./pages/ProfileUpdate/ProfileUpdate";
 // import SideBar from "./components/SideBar";
 import Dashboard from "./pages/DashBoard/Dashboard";
+import Dashboardd from "./pages/Dashboardd/Dashboardd";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/editProfile" element={<EditProfile />} />
         <Route path="/profileupdate" element={<ProfileUpdate />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboardd" element={<Dashboardd/>} />
       </Routes>
     </div>
   );

@@ -20,4 +20,4 @@ const DeleteProduct = ({closeModal}) => {
   )
 }
 
-export default DeleteProduct
+export default DeleteProduct;

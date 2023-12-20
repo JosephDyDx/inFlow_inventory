@@ -26,7 +26,7 @@ const SideBar = () => {
             <IoMdAddCircleOutline style={{ color: "#fff" }} />
             Add Product
           </NavLink>
-          <NavLink to="/LogOutModal" className="nav-1">
+          <NavLink to="/LogOut" className="nav-1">
             <IoIosLogOut style={{ color: "#fff" }} />
             Logout
           </NavLink>

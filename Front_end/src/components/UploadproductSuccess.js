@@ -18,4 +18,4 @@ const UploadProductSuccess = ({closeModal}) => {
   )
 }
 
-export default UploadProductSuccess
+export default UploadProductSuccess;

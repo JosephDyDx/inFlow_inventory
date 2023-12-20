@@ -12,7 +12,7 @@ const Under = () => {
     <div className='dash'>
       <p>Dashboard</p>
       <p className='happy'> Welcome back, Adegoke Happy </p>
-      {/* <br></br> */}
+      <br></br>
       <div className='bars'>
         <div className='im'><div className='bam'><img src={barchart2} alt="worker"/></div></div>  <div className='im'><div className='bam'><img src={lineChart} alt="worker"/></div> </div> <div className='im'><div className='bam'><img src={bar} alt="worker"/></div> </div> <div className='im'><div className='bamlast'><img src={Groupp} alt="worker"/> </div></div>  
       </div>
