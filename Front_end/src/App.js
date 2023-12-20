@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-import Navbar from "./components/NavBar/navbar";
-import Intro from "./pages/Intro/intro";
-=======
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
@@ -17,15 +13,10 @@ import ProfileUpdate from "./pages/ProfileUpdate/ProfileUpdate";
 // import SideBar from "./components/SideBar";
 import Dashboard from "./pages/DashBoard/Dashboard";
 import Dashboardd from "./pages/Dashboardd/Dashboardd";
->>>>>>> e68c9ed9377e948defaa11010b66fa626017c7a5
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-        <Navbar />
-        <Intro />
-=======
       <Routes>
         <Route path="/" element={<ForgotPassword />} />
         <Route path="/passwordreset" element={<PasswordReset />} />
@@ -37,7 +28,6 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/dashboardd" element={<Dashboardd/>} />
       </Routes>
->>>>>>> e68c9ed9377e948defaa11010b66fa626017c7a5
     </div>
   );
 }

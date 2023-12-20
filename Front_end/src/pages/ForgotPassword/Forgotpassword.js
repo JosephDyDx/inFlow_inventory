@@ -19,12 +19,6 @@ const Forgotpassword = () => {
           <HiArrowSmallLeft style={arrowStyle} />
         </NavLink>
         <p className="header-text">Forgot Password </p>
-<<<<<<< HEAD
-      </NavLink>
-      <img src={Group} alt="worker" className="image"/>
-      <p className="para">
-        Don’t worry it happens, please provide the email <br/> associated with your
-=======
       </div> */}
       <div className="forgot-header">
         <NavLink to="/">
@@ -35,7 +29,6 @@ const Forgotpassword = () => {
       <img src={Group} alt="worker" className="image" />
       <p className="forgot-para">
         Don’t worry it happens, please provide the email associated with your
->>>>>>> e68c9ed9377e948defaa11010b66fa626017c7a5
         account
       </p>
       <div className="forgot-container">
