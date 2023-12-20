@@ -1,0 +1,45 @@
+.dash{
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 344px;
+    color:#000000;
+    display: flex;
+    flex-direction: column;
+
+}
+.happy{
+    font-size: 20px;
+    font-weight: 300;
+    color:#040491;
+}
+.bars{
+    display: flex;
+    flex-direction: row;
+}
+   .im{
+    background-image: url(../assets/Rectangle\ 38b.jpg);
+    width: 180px;
+    height: 193px;
+    margin: 32px;
+}
+
+.bam{
+    margin-top: 65px;
+    padding-left: 20px;
+}
+
+.bamlast{
+    margin-top: 85px;
+    padding-left: 60px;
+}
+.camera{
+    width: 192px;
+    height: 192px;
+    margin-left:29px;
+}
+.hr{
+    width:604px;
+    color:linear-gradient(0deg, #000000, #000000),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    
+}

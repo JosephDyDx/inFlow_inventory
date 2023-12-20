@@ -1,0 +1,67 @@
+.otp-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+.arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.arrow-para {
+  text-align: center;
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0 auto;
+  /* width: 198px; */
+}
+
+.otp-para{
+    width: 500px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+}
+
+.otp-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.otp-text {
+    text-decoration: none;
+    font-style: italic;
+    color: #000;
+    width: 158px;
+    font-size: 24px;
+    font-weight: 250;
+    text-align: center;
+}
+
+.phone-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #020281;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 12px;
+    width: 400px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 1px solid #020281;
+}
