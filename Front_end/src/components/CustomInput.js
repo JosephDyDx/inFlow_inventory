@@ -1,24 +1,14 @@
 import React from "react";
 
-const CustomInput = ({
-  icon,
-  placeholder,
-  type,
-  value,
-  onChange,
-  className,
-}) => {
+const CustomInput = ({ placeholder, type, value, onChange, className }) => {
   return (
-    <>
-      <input
-        placeholder={placeholder}
-        icon={icon}
-        type={type}
-        value={value}
-        onChange={onChange}
-        className={className}
-      />
-    </>
+    <input
+      placeholder={placeholder}
+      type={type}
+      value={value}
+      onChange={onChange}
+      className={className}
+    />
   );
 };
 

@@ -9,18 +9,19 @@ const PasswordReset = () => {
   const [newPassword, setNewPassword] = useState();
   const [confirmPassword, setConfirmPassword] = useState();
 
-  const arrowStyle = { width: 40, height: 35, color: "#000" };
+  const arrowStyle = { width: 40, height: 35, color: "#000", marginRight: 800, marginButtom: 100};
   return (
     <div className="newPwBody">
-      <NavLink to="/" className="header">
+      <NavLink to="/">
         <HiArrowSmallLeft style={arrowStyle} />
-        <p className="body-title">Password Reset</p>
       </NavLink>
-      <p className="header-text">
+
+      <p className="reset-title">Password Reset</p>
+      <p className="reset-header-text">
         Your new password should be different from the old password
       </p>
 
-      <div className="pw-input">
+      <div className="reset-pw-input">
         <CustomInput
           placeholder="new password"
           type="password"

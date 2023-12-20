@@ -3,22 +3,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
-.arrows {
+.product-arrow {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 100px;
     background-color:#021444;
+    padding: 15px;
+    background-size: contain;
+    width: 1267px;
     
   }
-  .arrows-para {
+  .product-arrow-para {
     text-align: center;
-    color: #000000;
     font-weight: 600;
     font-size: 24px;
-    width: 198px;
+    color:#fff;
+    margin-right: 87px;
+   
   }
   
 .product-head {
@@ -27,6 +32,9 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
+    padding: 24px;
+    background-color: #e5e5e5;
+    
 }
 
 .header-text {
@@ -41,6 +49,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+    background-color: #e5e5e5;
 }
 
 .input-1A {
@@ -63,4 +72,38 @@
     border-radius: 15px;
     height: 64px;
     width: 500px;
+}
+.updates-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding: 90px;
+    /* margin-top: 40px; */
+    background-color: #e5e5e5;
+    padding-top: 12px;
+}
+
+.saves-link {
+    text-decoration: none;
+    color: #0338be;
+    width: 74px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.saves-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #0047ff;
+    box-shadow: 2px 3px #0047ff;
+    padding: 24px 97px 24px 97px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
 }

@@ -1,0 +1,85 @@
+.profile-edit-arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color:#021444;
+    padding: 8px;
+    background-size: contain;
+    width: 1281
+    px;
+    /* border-radius: 20px; */
+
+}
+.profile-edit-text-para {
+    color: #fff;
+    font-weight:700;
+    font-size: 35px;
+    text-align: center;
+    margin-right:93px;
+}
+.edits-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5e5e5;
+}
+
+.adds-picture {
+    width: 216px;
+    height:216px;
+    background-color: #e5e5e5;
+    color: #000;
+    border-radius: 60px;
+    margin-top: 40px;
+}
+.profile-edit-form-container {
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* margin-left: -950px */
+}
+.profile-edit-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:  #040491;
+    border: 1px solid #040491;
+    border: 12px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    padding:37px, 18px, 37px, 38px;
+    width: 126px;
+    height: 58px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top:70px;
+    /* margin-left: 12px;
+    margin-top: 8px; */
+    
+}
+.profile-bio{
+    text-align: center;
+    width: 730px;
+    height: 72px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    
+}
+.username{
+    font-weight: 700;
+    
+}
+.phonenumber{
+    font-weight: 700;
+    
+}

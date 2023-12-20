@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding: 40px;
 }
 .arrow {
   display: flex;
@@ -18,7 +19,8 @@
   color: #000000;
   font-weight: 600;
   font-size: 24px;
-  width: 198px;
+  margin: 0 auto;
+  /* width: 198px; */
 }
 
 .otp-para{

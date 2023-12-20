@@ -40,12 +40,13 @@ const PhoneOtp = () => {
             width: 46,
             height: 62,
             border: "1px solid #c7c6c6",
+            borderRadius: 15,
             color: "#000"
           }}
         />
         <NavLink to="/" className="otp-text">Resend Code</NavLink>
       </div>
-      <CustomButton to="/product" className="phone-button">
+      <CustomButton to="/EditProfile" className="phone-button">
         Continue
       </CustomButton>
     </div>

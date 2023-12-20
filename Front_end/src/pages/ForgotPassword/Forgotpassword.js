@@ -14,24 +14,33 @@ const Forgotpassword = () => {
 
   return (
     <div className="forgotPwbody">
-      <NavLink to="/" className="header">
-        <HiArrowSmallLeft style={arrowStyle} />
+      {/* <div className="arrow">
+        <NavLink to="/">
+          <HiArrowSmallLeft style={arrowStyle} />
+        </NavLink>
         <p className="header-text">Forgot Password </p>
-      </NavLink>
-      <img src={Group} alt="worker" className="image"/>
-      <p className="para">
+      </div> */}
+      <div className="forgot-header">
+        <NavLink to="/">
+          <HiArrowSmallLeft style={arrowStyle} />
+        </NavLink>
+        <p className="forgot-header-text">Forgot Password</p>
+      </div>
+      <img src={Group} alt="worker" className="image" />
+      <p className="forgot-para">
         Don’t worry it happens, please provide the email associated with your
         account
       </p>
-      <div className="container">
-        <div className="wrapper">
+      <div className="forgot-container">
+        <div>
           <BiEnvelope
             style={{
               width: 28,
               height: 23,
               color: "#020281",
               position: "absolute",
-              left: 2,
+              left: 250,
+              top: 385
             }}
           />
           <CustomInput
@@ -46,9 +55,9 @@ const Forgotpassword = () => {
           Continue
         </CustomButton>
 
-        <div className="info">
-          <p>Remember Your details?</p>
-          <p>Sign in</p>
+        <div className="forgot-info">
+          <NavLink to="/forgotpassword" className="forgot-info-text">Remember Your details?</NavLink>
+          <NavLink to="/" className="forgot-info-link">Sign in</NavLink>
         </div>
       </div>
     </div>

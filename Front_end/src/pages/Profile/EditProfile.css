@@ -1,0 +1,113 @@
+.editprofile-arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color:#021444;
+    padding: 8px;
+    background-size: contain;
+    width: 1280px;
+    /* border-radius: 20px; */
+
+}
+.edit-text-para {
+    color: #fff;
+    font-weight:700;
+    font-size: 35px;
+    text-align: center;
+    margin-right:112px;
+}
+
+.edit-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5e5e5;
+    padding: 40px;
+}
+
+.add-picture {
+    width: 216px;
+    height: 216px;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+.plus {
+    position: absolute;
+    left: 650px;
+    top: 200px;
+    width: 58px;
+    height: 79px;
+    color: #000;
+}
+
+.edit-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-left: -750px;
+
+}
+.editleft-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    float: right;
+    margin-top: -680px;
+    height: 976px;
+    width: 672px;
+    margin-left: 529px;
+}
+.inputs-style {
+    border: 1px solid #040491;
+    border-radius: 10px;
+    height:320px;
+    width: 670px;
+}
+.text-edit{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+.input-style {
+    border: 1px solid #040491;
+    border-radius: 10px;
+    height:82px;
+    width: 494px;
+}
+.edit-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #021444;
+    border: 1px solid #021444;
+    border: 12px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    padding:37px, 18px, 37px, 38px;
+    width: 126px;
+    height: 66px;
+    border-radius: 10px;
+    margin-left: 12px;
+    margin-top: 18px;
+    
+}
+
+/* .edit-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 227px;
+
+}  */
