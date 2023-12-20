@@ -4,11 +4,12 @@ const mongoose = require('mongoose')
 
 Name
 Category
-Quantity
+Quantity - num
 SerialNumber
-Version
+Version - num
 ShelfLife
 Suppliers
+//picture - undecided
 ArrivalDate
 Description
 
@@ -73,4 +74,4 @@ const productSchema = new Schema({
   }
 }, { timestamps: true })
 
-module.exports = mongoose.model('Product', productSchema)
+module.exports = mongoose.model('Workout', productSchema)
