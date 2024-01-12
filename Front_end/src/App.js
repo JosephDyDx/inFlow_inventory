@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<ForgotPassword />} />
+        <Route path="/forgotpassword" element={<ForgotPassword />} />
         <Route path="/passwordreset" element={<PasswordReset />} />
         <Route path="/phoneotp" element={<PhoneOtp />} />
         <Route path="/product" element={<Product />} />
