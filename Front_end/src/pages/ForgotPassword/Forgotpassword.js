@@ -21,7 +21,7 @@ const Forgotpassword = () => {
         <p className="header-text">Forgot Password </p>
       </div> */}
       <div className="forgot-header">
-        <NavLink to="/">
+        <NavLink to="/SignUp">
           <HiArrowSmallLeft style={arrowStyle} />
         </NavLink>
         <p className="forgot-header-text">Forgot Password</p>
@@ -56,8 +56,8 @@ const Forgotpassword = () => {
         </CustomButton>
 
         <div className="forgot-info">
-          <NavLink to="/forgotpassword" className="forgot-info-text">Remember Your details?</NavLink>
-          <NavLink to="/" className="forgot-info-link">Sign in</NavLink>
+          <NavLink to="/" className="forgot-info-text">Remember Your details?</NavLink>
+          <NavLink to="/PasswordReset" className="forgot-info-link">Sign in</NavLink>
         </div>
       </div>
     </div>

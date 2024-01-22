@@ -1,8 +1,23 @@
 const mongoose = require('mongoose')
+
+/*
+
+Name
+Category
+Quantity - num
+SerialNumber
+Version - num
+ShelfLife
+Suppliers
+//picture - undecided
+ArrivalDate
+Description
+
+*/
+
 const Schema = mongoose.Schema
 
 const productSchema = new Schema({
-  
   Name: {
     type: String,
     required: true
@@ -38,27 +53,25 @@ const productSchema = new Schema({
     required: true    
   },
 
-  TimeStamp: {
-    timestamps: true 
-  },
-
-
   // undecided 
   // Picture: {
 
   // }
 
   ArrivalDate: {
-  type: Date,
-  required: true
-},
-
-Description: {
   type: String,
   required: true
-}
+  },
 
+  Description: {
+  type: String,
+  required: true
+  },
 
-})
+  user_id: {
+    type: String,
+    required: true
+  }
+}, { timestamps: true })
 
-module.exports = mongoose.model('Product', productSchema)
+module.exports = mongoose.model('Workout', productSchema)

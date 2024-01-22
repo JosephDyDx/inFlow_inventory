@@ -41,7 +41,7 @@ const PasswordReset = () => {
         </CustomButton>
       </div>
 
-      <NavLink to="/" className="signin">
+      <NavLink to="/Dashboard" className="signin">
         Sign in
       </NavLink>
     </div>
