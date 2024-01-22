@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 import Group from "../../assets/Group.png";
 
 const Forgotpassword = () => {
-  const arrowStyle = { width: 40, height: 35, color: "#000" };
+  const arrowStyle = { width: 30, height: 25, color: "#000" };
 
   const [email, setEmail] = useState();
 
@@ -21,7 +21,7 @@ const Forgotpassword = () => {
         <p className="header-text">Forgot Password </p>
       </div> */}
       <div className="forgot-header">
-        <NavLink to="/SignUp">
+        <NavLink to="/">
           <HiArrowSmallLeft style={arrowStyle} />
         </NavLink>
         <p className="forgot-header-text">Forgot Password</p>
@@ -56,8 +56,8 @@ const Forgotpassword = () => {
         </CustomButton>
 
         <div className="forgot-info">
-          <NavLink to="/" className="forgot-info-text">Remember Your details?</NavLink>
-          <NavLink to="/PasswordReset" className="forgot-info-link">Sign in</NavLink>
+          <NavLink to="/forgotpassword" className="forgot-info-text">Remember Your details?</NavLink>
+          <NavLink to="/" className="forgot-info-link">Sign in</NavLink>
         </div>
       </div>
     </div>

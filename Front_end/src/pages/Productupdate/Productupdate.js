@@ -123,7 +123,6 @@ const Productupdate = () => {
               value={category}
               onChange={() => setCategory()}
               className="inputstyle"
-              
             />
           </div>
         </div>

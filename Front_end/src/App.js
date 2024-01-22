@@ -13,17 +13,12 @@ import ProfileUpdate from "./pages/ProfileUpdate/ProfileUpdate";
 // import SideBar from "./components/SideBar";
 import Dashboard from "./pages/DashBoard/Dashboard";
 import Dashboardd from "./pages/Dashboardd/Dashboardd";
-import SignUp from "./SignUp";
-import SignIn from "./SignIn";
-// import SignUp from "./pages/SignUp";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/register" element={<SignUp />}/>
-        <Route path="/login" element={<SignIn />}/>
-        <Route path="/forgotpassword" element={<ForgotPassword />} />
+        <Route path="/" element={<ForgotPassword />} />
         <Route path="/passwordreset" element={<PasswordReset />} />
         <Route path="/phoneotp" element={<PhoneOtp />} />
         <Route path="/product" element={<Product />} />

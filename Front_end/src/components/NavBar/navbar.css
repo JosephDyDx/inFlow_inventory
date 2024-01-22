@@ -1,0 +1,29 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo{
+    object-fit: cover;
+    height: auto;
+    width: 10rem;
+}
+
+.desktopMenuListItem{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.desktopMenuListItem:hover{
+    color: purple;
+    padding-bottom: 0.5rem;
+}

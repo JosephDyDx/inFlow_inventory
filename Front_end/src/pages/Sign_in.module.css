@@ -1,0 +1,148 @@
+.bg img {
+    margin-left: 200px;
+    margin-top: 100px;
+    float: left;
+}
+
+.container {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 2.5rem;
+    box-shadow: 0px 3px 3px 0px #5f5f68;
+    
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    padding-top: 10px;
+    top:20px;
+    left:-80px;
+    align-items: center;
+}
+
+.header p {
+    margin-top: 10;
+    font-weight: 300;
+}
+
+
+.inputs {
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    background: #F4F2F2;
+    border-radius: 0.5rem;
+}
+
+.input [type='text'] {
+    display: block;
+    margin: 0 auto;
+}
+
+.input ::placeholder {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.input img {
+    margin: 0 30px;
+    height: 40%;
+    width: auto;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #4e4e4e;
+    font-size: 19px;
+}
+
+.checkbx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+  
+.checkbx p {
+    margin: 0 2.9rem;
+}
+
+.checkbx input {
+    width: 200%;
+    height: 30px;
+    bottom:-50px;
+    left: -100%;
+    accent-color: blue;
+}
+
+.submit_container:Link {
+    font-weight: 500;
+    align-items: center;
+    position: relative;
+    font-size: 20px;
+}
+
+.login-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.signup {
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.child {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 10px;
+    left: -25px;
+}
+
+.socials {
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.social_icons {    
+    width: auto;
+    height: 30px;
+}
+
+.socials a {
+    justify-content: center;
+    margin-right: 15px;
+}
